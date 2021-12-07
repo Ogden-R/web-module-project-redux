@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { toggleFavorites } from '../actions/favoritesActions';
-import { appTitle, displayFavorites, toggleFavorites } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const MovieHeader = (props) => {
     const { appTitle, displayFavorites, toggleFavorites } = props;
